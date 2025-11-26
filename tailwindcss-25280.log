@@ -1,0 +1,87 @@
+2025-11-26T19:02:20.340690Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-11-26T19:02:20.340800Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "G:\\GitHub\\image-resizer", pattern: "**/*", negated: false }
+2025-11-26T19:02:20.340977Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-11-26T19:02:20.340997Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "G:\\GitHub\\image-resizer" }
+2025-11-26T19:02:20.342791Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.345022Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\app"
+2025-11-26T19:02:20.345289Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\app\\globals.css"
+2025-11-26T19:02:20.395442Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\app\\layout.tsx"
+2025-11-26T19:02:20.395542Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\app\\page.tsx"
+2025-11-26T19:02:20.395669Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\eslint.config.mjs"
+2025-11-26T19:02:20.395874Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\next.config.ts"
+2025-11-26T19:02:20.396213Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\package.json"
+2025-11-26T19:02:20.396308Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\postcss.config.mjs"
+2025-11-26T19:02:20.396409Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public"
+2025-11-26T19:02:20.396594Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public\\file.svg"
+2025-11-26T19:02:20.396706Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public\\globe.svg"
+2025-11-26T19:02:20.396805Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public\\next.svg"
+2025-11-26T19:02:20.396891Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public\\vercel.svg"
+2025-11-26T19:02:20.396957Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public\\window.svg"
+2025-11-26T19:02:20.397038Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\README.md"
+2025-11-26T19:02:20.397115Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\tsconfig.json"
+2025-11-26T19:02:20.397238Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.397249Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.397256Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.397260Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 13 file(s)
+2025-11-26T19:02:20.397855Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\public\\vercel.svg"
+2025-11-26T19:02:20.397865Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\next.config.ts"
+2025-11-26T19:02:20.397870Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\app\\layout.tsx"
+2025-11-26T19:02:20.397881Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\public\\globe.svg"
+2025-11-26T19:02:20.397897Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\public\\next.svg"
+2025-11-26T19:02:20.397870Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\public\\file.svg"
+2025-11-26T19:02:20.397870Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\package.json"
+2025-11-26T19:02:20.397979Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\public\\window.svg"
+2025-11-26T19:02:20.397984Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\app\\page.tsx"
+2025-11-26T19:02:20.398022Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\postcss.config.mjs"
+2025-11-26T19:02:20.398019Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\README.md"
+2025-11-26T19:02:20.398020Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\tsconfig.json"
+2025-11-26T19:02:20.398046Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\eslint.config.mjs"
+2025-11-26T19:02:20.398192Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.398203Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.398211Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.398596Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.398610Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.398615Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.398619Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-26T19:02:20.398696Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\app\\globals.css"
+2025-11-26T19:02:20.398705Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.398712Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.398715Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.398827Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.398841Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.399131Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.399513Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.399523Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.400670Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\app"
+2025-11-26T19:02:20.401257Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public"
+2025-11-26T19:02:20.401637Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.401744Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.401802Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.401808Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T19:02:20.402790Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\app"
+2025-11-26T19:02:20.403354Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public"
+2025-11-26T19:02:20.403724Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T19:02:20.405919Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-26T19:07:49.385269Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T19:07:49.386836Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\app"
+2025-11-26T19:07:49.387125Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\app\\page.tsx"
+2025-11-26T19:07:49.387632Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public"
+2025-11-26T19:07:49.388079Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T19:07:49.388089Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-26T19:07:49.388094Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-26T19:07:49.388098Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-26T19:07:49.388170Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\image-resizer\\app\\page.tsx"
+2025-11-26T19:07:49.388239Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-26T19:07:49.388247Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-26T19:07:49.388250Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-26T19:07:49.388577Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-26T19:07:49.388593Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-26T19:07:49.388849Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-26T19:07:49.389018Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-26T19:07:49.389025Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T19:07:49.390177Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\app"
+2025-11-26T19:07:49.390770Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\image-resizer\\public"
+2025-11-26T19:07:49.391137Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T19:07:49.391207Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-26T19:07:49.391270Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-26T19:07:49.391277Z  INFO get_globs: tailwindcss_oxide::scanner: exit
